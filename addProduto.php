@@ -1,6 +1,6 @@
-<?php require_once('header.php'); 
-
-  $conexao = mysqli_connect('127.0.0.1','root','', 'loja');
+<?php 
+  require_once('header.php');
+  require_once('connection.php'); 
 
   function insert($conexao, $nome, $preco){
    $query = "INSERT INTO produtos(nome, preco) values('{$nome}', {$preco})";

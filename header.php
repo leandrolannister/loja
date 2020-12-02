@@ -17,6 +17,11 @@
           <li><a href="produto-form.php">Adiciona Produto</a></li>         
         </ul>
       </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="produto-listar.php">Produto Lista</a></li>         
+        </ul>
+      </div>
     </div> 
   </div>
   <div class="container">
