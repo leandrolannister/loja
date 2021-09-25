@@ -1,0 +1,2 @@
+TIMER = 8.40
+shift + alt + f => Identar
