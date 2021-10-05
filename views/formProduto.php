@@ -1,8 +1,11 @@
-<?php require_once('header.php'); ?>
+<?php 
+   $GLOBALS['path'] = '../css/style.css';
+   require_once('header.php'); 
+?>
 
 <div class="principal">
     <h1>Produto Form</h1>
-    <form action="addProduto.php" method="GET">
+    <form action="../controller/addProduto.php" method="POST">
         <div class="frm_nome">
             <label for="nome">Nome</label>
             <input type="text" name="nome" /> <br />

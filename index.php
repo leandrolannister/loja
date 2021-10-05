@@ -1,6 +1,10 @@
-<?php require_once('header.php'); ?>
+<?php 
+   $GLOBALS['path'] = 'css/style.css';
+   require_once('views/header.php'); 
+?>
 
 <div class="container">
 	<h1 class="principal">Welcome</h1>
 </div>
-<?php require_once('header.php'); ?>
+
+<a href="views/formProduto.php" target="_blank">Novo Produto</a>
